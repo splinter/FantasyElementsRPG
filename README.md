@@ -14,3 +14,7 @@ Client Side: Silverlight and Composite Application Library(CAL)
 Server Side: NodeJS
 
 added the design  doc - if you can call it that :P
+
+added a pear tree system of relevent nodes i find and tag:
+
+http://www.pearltrees.com/#/N-u=1_955680&N-p=82971963&N-s=1_8527222&N-f=1_8527222&N-fa=6902102
