@@ -1,0 +1,1 @@
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell.Game\FantasyElementsRPG.Shell.Game.csproj,635086256814891237,Properties\AssemblyInfo.cs,
