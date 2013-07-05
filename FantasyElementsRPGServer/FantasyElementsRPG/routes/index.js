@@ -1,8 +1,14 @@
 
 /*
- * GET home page.
+ BL to GET home page.
  */
 
-exports.index = function(req, res){
-  res.render('index', { title: 'Express' })
-};
+define([],function (){
+	var initHomePage = function(req, res){
+		//console.log(seq);
+		res.render('index', { title: 'Express' });
+	};
+	
+	return initHomePage;
+});
+
