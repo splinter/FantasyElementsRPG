@@ -122,6 +122,12 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FantasyElementsRPG.Core.Canvas\FantasyElementsRPG.Core.Canvas.csproj">
+      <Project>{3c3e0bdd-e947-48c2-b781-d35804fa8ba2}</Project>
+      <Name>FantasyElementsRPG.Core.Canvas</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

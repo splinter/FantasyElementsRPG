@@ -178,3 +178,5 @@ E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.S
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\FantasyElementsRPG.Shell.xap
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\FantasyElementsRPG.ShellTestPage.html
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\obj\Debug\XapCacheFile.xml
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\FantasyElementsRPG.Core.Canvas.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\FantasyElementsRPG.Core.Canvas.pdb

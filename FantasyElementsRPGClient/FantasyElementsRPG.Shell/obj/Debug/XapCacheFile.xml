@@ -1,5 +1,6 @@
-﻿<xapCache source="E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\FantasyElementsRPG.Shell.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="7/5/2013 1:31:53 PM">
-  <file source="E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\obj\Debug\FantasyElementsRPG.Shell.dll" archivePath="FantasyElementsRPG.Shell.dll" lastWriteTime="7/5/2013 1:31:52 PM" />
+﻿<xapCache source="E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\FantasyElementsRPG.Shell.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="7/5/2013 3:50:30 PM">
+  <file source="E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\obj\Debug\FantasyElementsRPG.Shell.dll" archivePath="FantasyElementsRPG.Shell.dll" lastWriteTime="7/5/2013 3:50:29 PM" />
+  <file source="E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.Canvas\Bin\Debug\FantasyElementsRPG.Core.Canvas.dll" archivePath="FantasyElementsRPG.Core.Canvas.dll" lastWriteTime="7/5/2013 3:50:28 PM" />
   <file source="E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\PrismLibs\Microsoft.Practices.Prism.dll" archivePath="Microsoft.Practices.Prism.dll" lastWriteTime="2/14/2012 10:16:44 AM" />
   <file source="E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\PrismLibs\Microsoft.Practices.Prism.Interactivity.dll" archivePath="Microsoft.Practices.Prism.Interactivity.dll" lastWriteTime="2/14/2012 10:16:44 AM" />
   <file source="E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\PrismLibs\Microsoft.Practices.Prism.MefExtensions.dll" archivePath="Microsoft.Practices.Prism.MefExtensions.dll" lastWriteTime="2/14/2012 10:16:44 AM" />
@@ -15,5 +16,5 @@
   <file source="C:\Program Files\Microsoft SDKs\Expression\Blend\Silverlight\v5.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="8/10/2012 2:17:12 PM" />
   <file source="C:\Program Files\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ComponentModel.Composition.dll" archivePath="System.ComponentModel.Composition.dll" lastWriteTime="11/18/2011 5:40:20 PM" />
   <file source="C:\Program Files\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ComponentModel.Composition.Initialization.dll" archivePath="System.ComponentModel.Composition.Initialization.dll" lastWriteTime="11/18/2011 5:40:20 PM" />
-  <file source="E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/5/2013 1:31:53 PM" />
+  <file source="E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Shell\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/5/2013 3:47:50 PM" />
 </xapCache>

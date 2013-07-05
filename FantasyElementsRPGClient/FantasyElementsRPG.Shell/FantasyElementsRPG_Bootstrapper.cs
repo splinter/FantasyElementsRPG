@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Practices.Unity;
+using Microsoft.Practices.Prism.Modularity;
 
 namespace FantasyElementsRPG.Shell
 {
@@ -26,6 +27,14 @@ namespace FantasyElementsRPG.Shell
             base.InitializeShell();
 
             Application.Current.RootVisual = (UIElement)this.Shell;
+        }
+
+        protected override void ConfigureModuleCatalog()
+        {
+            base.ConfigureModuleCatalog();
+
+            ModuleCatalog moduleCatalog = (ModuleCatalog)this.ModuleCatalog;
+            moduleCatalog.AddModule(typeof(Core.Canvas.CanvasModule));
         }
     }
 }
