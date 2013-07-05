@@ -103,9 +103,7 @@
     <Compile Include="FantasyElementsRPG_Shell.xaml.cs">
       <DependentUpon>FantasyElementsRPG_Shell.xaml</DependentUpon>
     </Compile>
-    <Compile Include="IShellView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShellPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

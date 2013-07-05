@@ -1,0 +1,5 @@
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.GameLoop\Bin\Debug\FantasyElementsRPG.Core.GameLoop.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.GameLoop\Bin\Debug\FantasyElementsRPG.Core.GameLoop.pdb
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.GameLoop\obj\Debug\FantasyElementsRPG.Core.GameLoop.csprojResolveAssemblyReference.cache
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.GameLoop\obj\Debug\FantasyElementsRPG.Core.GameLoop.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.GameLoop\obj\Debug\FantasyElementsRPG.Core.GameLoop.pdb

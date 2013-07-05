@@ -87,3 +87,5 @@ E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.C
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.Canvas\Bin\Debug\zh-Hant\System.ComponentModel.Composition.Initialization.resources.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.Canvas\obj\Debug\FantasyElementsRPG.Core.Canvas.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.Canvas\obj\Debug\FantasyElementsRPG.Core.Canvas.pdb
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.Canvas\Bin\Debug\FantasyElementsRPG.Core.GameLoop.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPGClient\FantasyElementsRPG.Core.Canvas\Bin\Debug\FantasyElementsRPG.Core.GameLoop.pdb
