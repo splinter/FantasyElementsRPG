@@ -9,4 +9,8 @@ Elements: The four Elements: Air, Earth, Water, Fire
 
 RPG: you know what that is :D
 
-Project is built on: Composite Application Library (CAL)
+Client Side: Silverlight and Composite Application Library(CAL)
+
+Server Side: NodeJS
+
+added the design  doc - if you can call it that :P
