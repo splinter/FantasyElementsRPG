@@ -23,6 +23,9 @@ namespace FantasyElementsRPG.Server.PolicyServer
         public MainWindow()
         {
             InitializeComponent();
+
+            PolicyServer ps = new PolicyServer("PolicyFile.xml");
+            System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
         }
     }
 }
