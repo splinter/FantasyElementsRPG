@@ -1,0 +1,5 @@
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.PolicyServer.Logger\bin\Debug\FantasyElementsRPG.Server.PolicyServer.Logger.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.PolicyServer.Logger\bin\Debug\FantasyElementsRPG.Server.PolicyServer.Logger.pdb
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.PolicyServer.Logger\obj\Debug\FantasyElementsRPG.Server.PolicyServer.Logger.csprojResolveAssemblyReference.cache
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.PolicyServer.Logger\obj\Debug\FantasyElementsRPG.Server.PolicyServer.Logger.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.PolicyServer.Logger\obj\Debug\FantasyElementsRPG.Server.PolicyServer.Logger.pdb

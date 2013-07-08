@@ -12,9 +12,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Client.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Server.PolicyServer", "FantasyElementsRPG.Server.PolicyServer\FantasyElementsRPG.Server.PolicyServer.csproj", "{CBCD23EB-916E-4D07-A501-B4086D59804F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Server.GameServer", "FantasyElementsRPG.Server.GameServer\FantasyElementsRPG.Server.GameServer.csproj", "{23A51926-B68C-4F85-80EC-DB78B8F0C033}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Client.Core.GameLoop", "FantasyElementsRPG.Client.Core.GameLoop\FantasyElementsRPG.Client.Core.GameLoop.csproj", "{B7E58337-B35E-4F49-89BC-3B4945A2BE36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Server.GameServer.Shell", "FantasyElementsRPG.Server.GameServer.Shell\FantasyElementsRPG.Server.GameServer.Shell.csproj", "{AC9BB5FB-DE39-4764-84A7-FEBF80ADAB15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElements.Client.Core.SocketFactory", "FantasyElements.Client.Core.SocketFactory\FantasyElements.Client.Core.SocketFactory.csproj", "{CEB5AA3E-EE0D-46FE-A238-F503347CE8A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Server.PolicyServer.Logger", "FantasyElementsRPG.Server.PolicyServer.Logger\FantasyElementsRPG.Server.PolicyServer.Logger.csproj", "{E5C5F9CE-DC7A-42B4-8D81-9C3FB6249DC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,14 +42,22 @@ Global
 		{CBCD23EB-916E-4D07-A501-B4086D59804F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBCD23EB-916E-4D07-A501-B4086D59804F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBCD23EB-916E-4D07-A501-B4086D59804F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{23A51926-B68C-4F85-80EC-DB78B8F0C033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23A51926-B68C-4F85-80EC-DB78B8F0C033}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23A51926-B68C-4F85-80EC-DB78B8F0C033}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23A51926-B68C-4F85-80EC-DB78B8F0C033}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B7E58337-B35E-4F49-89BC-3B4945A2BE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7E58337-B35E-4F49-89BC-3B4945A2BE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7E58337-B35E-4F49-89BC-3B4945A2BE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7E58337-B35E-4F49-89BC-3B4945A2BE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9BB5FB-DE39-4764-84A7-FEBF80ADAB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9BB5FB-DE39-4764-84A7-FEBF80ADAB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9BB5FB-DE39-4764-84A7-FEBF80ADAB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9BB5FB-DE39-4764-84A7-FEBF80ADAB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB5AA3E-EE0D-46FE-A238-F503347CE8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB5AA3E-EE0D-46FE-A238-F503347CE8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB5AA3E-EE0D-46FE-A238-F503347CE8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB5AA3E-EE0D-46FE-A238-F503347CE8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C5F9CE-DC7A-42B4-8D81-9C3FB6249DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C5F9CE-DC7A-42B4-8D81-9C3FB6249DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C5F9CE-DC7A-42B4-8D81-9C3FB6249DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C5F9CE-DC7A-42B4-8D81-9C3FB6249DC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
