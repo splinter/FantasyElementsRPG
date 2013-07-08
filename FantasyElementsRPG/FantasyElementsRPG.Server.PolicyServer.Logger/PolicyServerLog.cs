@@ -8,20 +8,20 @@ using System.Windows.Documents;
 
 namespace FantasyElementsRPG.Server.PolicyServer.Logger
 {
-    public sealed class PolicyServerLogger
+    public sealed class PolicyServerLog
     {
         #region singleton region
         //private instance
-        private static volatile PolicyServerLogger iLog;
+        private static volatile PolicyServerLog iLog;
         private static object syncRoot = new Object();
         //private instance
-        private PolicyServerLogger()
+        private PolicyServerLog()
         {
             uLog.CreateFile();
         }
 
         //public getter
-        public static PolicyServerLogger PolicyServerLog
+        public static PolicyServerLog Log
         {
             get
             {
@@ -30,7 +30,7 @@ namespace FantasyElementsRPG.Server.PolicyServer.Logger
                     lock (syncRoot)
                     {
                         if (iLog == null)
-                            iLog = new PolicyServerLogger();
+                            iLog = new PolicyServerLog();
                     }
                 }
 
@@ -39,23 +39,15 @@ namespace FantasyElementsRPG.Server.PolicyServer.Logger
         }
         #endregion
 
-        #region processes
-
-        #region variables
-        private RichTextBox itextbox = new RichTextBox();
+        #region log work
+        //uLog object
         private UtilLog uLog = new UtilLog();
-        #endregion
-
-        public void SetTextBox(RichTextBox itextbox)
-        {
-            this.itextbox = itextbox;
-        }
-
+        private RichTextBox iTextBox = new RichTextBox();
         /// <summary>
         /// create file method to access the uLog util
         /// </summary>
         /// <returns></returns>
-        public bool CreateFile()
+        private bool CreateFile()
         {
             return uLog.CreateFile();
         }
@@ -68,13 +60,12 @@ namespace FantasyElementsRPG.Server.PolicyServer.Logger
         /// <returns></returns>
         public bool WriteLog(string Name, string log)
         {
-            
             FlowDocument mcFlowDoc = new FlowDocument();
-            mcFlowDoc = itextbox.Document;
+            mcFlowDoc = iTextBox.Document;
             Paragraph pr = new Paragraph();
-            pr.Inlines.Add(Environment.NewLine + DateTime.Now + ": " +log);
+            pr.Inlines.Add(DateTime.Now + ": " + log);
             mcFlowDoc.Blocks.Add(pr);
-            itextbox.Document = mcFlowDoc;
+            iTextBox.Document = mcFlowDoc;
 
             return uLog.WriteLog(Name, log);
         }
@@ -83,7 +74,7 @@ namespace FantasyElementsRPG.Server.PolicyServer.Logger
         /// Creates an error log file
         /// </summary>
         /// <returns></returns>
-        public bool CreateErrorLog()
+        private bool CreateErrorLog()
         {
             return uLog.CreateErrorLog();
         }
@@ -96,16 +87,22 @@ namespace FantasyElementsRPG.Server.PolicyServer.Logger
         /// <returns></returns>
         public bool WriteErrorLog(string Name, string log)
         {
+            uLog.CreateErrorLog();
+
             FlowDocument mcFlowDoc = new FlowDocument();
-            mcFlowDoc = itextbox.Document;
+            mcFlowDoc = iTextBox.Document;
             Paragraph pr = new Paragraph();
-            pr.Inlines.Add(Environment.NewLine + DateTime.Now + " Error: " +log);
+            pr.Inlines.Add(DateTime.Now + ": " + log);
             mcFlowDoc.Blocks.Add(pr);
-            itextbox.Document = mcFlowDoc;
+            iTextBox.Document = mcFlowDoc;
 
             return uLog.WriteErrorLog(Name, log);
         }
 
+        public void SetTextBox(RichTextBox iTextBox)
+        {
+            this.iTextBox = iTextBox;
+        }
         #endregion
     }
 }

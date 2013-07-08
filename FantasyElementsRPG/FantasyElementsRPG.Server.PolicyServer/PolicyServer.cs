@@ -23,10 +23,10 @@ namespace FantasyElementsRPG.Server.PolicyServer
             policyStream.Read(m_policy, 0, m_policy.Length);
             policyStream.Close();
             //Console.WriteLine(System.Text.Encoding.Default.GetString(m_policy));
-            PolicyServerLogger.PolicyServerLog.WriteLog(this.GetType().Name, "Read XML Policy File:\n" + System.Text.Encoding.Default.GetString(m_policy));
-            // Create the Listening Socket 
-            m_listener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            // Put the socket into dual mode to allow a single socket 
+            PolicyServerLog.Log.WriteLog(this.GetType().Name, "Read XML Policy File:\n" + System.Text.Encoding.Default.GetString(m_policy));
+
+            
+            /*// Put the socket into dual mode to allow a single socket 
             // to accept both IPv4 and IP connections 
             // Otherwise, server needs to listen on two sockets, 
             // one for IPv4 and one for IP 
@@ -34,9 +34,36 @@ namespace FantasyElementsRPG.Server.PolicyServer
             //m_listener.SetSocketOption(SocketOptionLevel.IP, (SocketOptionName)27, 0);
             m_listener.Bind(new IPEndPoint(IPAddress.Any, 943));
             m_listener.Listen(10);
-            PolicyServerLogger.PolicyServerLog.WriteLog(this.GetType().Name, "Policy Server Started");
+            PolicyServerLog.Log.WriteLog(this.GetType().Name, "Policy Server Started");
+            m_listener.BeginAccept(new AsyncCallback(OnConnection), null);*/
+        }
+
+        public void Start()
+        {
+            // Create the Listening Socket 
+            m_listener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            m_listener.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
+            // Put the socket into dual mode to allow a single socket 
+            // to accept both IPv4 and IP connections 
+            // Otherwise, server needs to listen on two sockets, 
+            // one for IPv4 and one for IP 
+            // NOTE: dual-mode sockets are supported on Vista and later 
+            //m_listener.SetSocketOption(SocketOptionLevel.IP, (SocketOptionName)27, 0);
+            m_listener.Bind(new IPEndPoint(IPAddress.Any, 943));
+            
+            m_listener.Listen(10);
+            PolicyServerLog.Log.WriteLog(this.GetType().Name, "Policy Server Started");
             m_listener.BeginAccept(new AsyncCallback(OnConnection), null);
         }
+
+        public void Stop()
+        {
+            m_listener = null;
+            //m_listener.Shutdown(SocketShutdown.Both);
+            //m_listener.Disconnect(true);
+            PolicyServerLog.Log.WriteLog(this.GetType().Name, "Policy Server Stopped");
+        }
+
         // Called when we receive a connection from a client 
         public void OnConnection(IAsyncResult res)
         {
@@ -45,12 +72,11 @@ namespace FantasyElementsRPG.Server.PolicyServer
             {
                 client = m_listener.EndAccept(res);
                 IPEndPoint temp = client.RemoteEndPoint as IPEndPoint;
-                PolicyServerLogger.PolicyServerLog.WriteLog(this.GetType().Name, "Accepted client: " + temp.Address +" at port:" + temp.Port);
+                PolicyServerLog.Log.WriteLog(this.GetType().Name, "Accepted client: " + temp.Address + " at port:" + temp.Port);
             }
             catch (SocketException e)
             {
-                PolicyServerLogger.PolicyServerLog.CreateErrorLog();
-                PolicyServerLogger.PolicyServerLog.WriteErrorLog(this.GetType().Name, e.Message);
+                PolicyServerLog.Log.WriteErrorLog(this.GetType().Name, e.Message);
                 return;
             }
             // handle this policy request with a PolicyConnection 

@@ -21,12 +21,30 @@ namespace FantasyElementsRPG.Server.PolicyServer
     /// </summary>
     public partial class MainWindow : Window
     {
+        PolicyServer ps;
+
         public MainWindow()
         {
             InitializeComponent();
-            PolicyServerLogger.PolicyServerLog.SetTextBox(txtUpdates);
-            PolicyServer ps = new PolicyServer("PolicyFile.xml");
-            System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
+            PolicyServerLog.Log.SetTextBox(txtUpdates);
+            ps = new PolicyServer("PolicyFile.xml");
+            ps.Start();
+            //System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
+
+        }
+
+        private void btnEndServer_Click(object sender, RoutedEventArgs e)
+        {
+            btnServerStart.IsEnabled = true;
+            btnEndServer.IsEnabled = false;
+            ps.Stop();
+        }
+
+        private void btnServerStart_Click(object sender, RoutedEventArgs e)
+        {
+            btnServerStart.IsEnabled = false;
+            btnEndServer.IsEnabled = true;
+            ps.Start();
         }
     }
 }

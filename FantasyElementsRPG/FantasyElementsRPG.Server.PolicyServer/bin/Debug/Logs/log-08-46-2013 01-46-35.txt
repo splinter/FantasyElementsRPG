@@ -1,0 +1,15 @@
+
+7/8/2013 1:46:35 PM: Form Name:PolicyServer, Log: Read XML Policy File:
+ï»¿<?xml version="1.0" encoding ="utf-8"?>
+<access-policy>
+  <cross-domain-access>
+    <policy>
+      <allow-from>
+        <domain uri="*" />
+      </allow-from>
+      <grant-to>
+        <socket-resource port="4502" protocol="tcp" />
+      </grant-to>
+    </policy>
+  </cross-domain-access>
+</access-policy>

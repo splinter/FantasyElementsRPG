@@ -32,8 +32,8 @@ namespace FantasyElementsRPG.Server.PolicyServer
             }
             catch (SocketException e)
             {
-                PolicyServerLogger.PolicyServerLog.CreateErrorLog();
-                PolicyServerLogger.PolicyServerLog.WriteErrorLog(this.GetType().Name, e.Message);
+                //PolicyServerLog.CreateErrorLog();
+                PolicyServerLog.Log.WriteErrorLog(this.GetType().Name, e.Message);
                 m_connection.Close();
             }
         }
@@ -61,8 +61,8 @@ namespace FantasyElementsRPG.Server.PolicyServer
             }
             catch (SocketException e)
             {
-                PolicyServerLogger.PolicyServerLog.CreateErrorLog();
-                PolicyServerLogger.PolicyServerLog.WriteErrorLog(this.GetType().Name, e.Message);
+                //PolicyServerLogger.PolicyServerLog.CreateErrorLog();
+                PolicyServerLog.Log.WriteErrorLog(this.GetType().Name, e.Message);
                 m_connection.Close();
             }
         }
@@ -73,7 +73,7 @@ namespace FantasyElementsRPG.Server.PolicyServer
             {
                 m_connection.EndSend(res);
                 IPEndPoint temp = m_connection.RemoteEndPoint as IPEndPoint;
-                PolicyServerLogger.PolicyServerLog.WriteLog(this.GetType().Name, "Sent XML Policy to: " + temp.Address + " at port:" + temp.Port);
+                PolicyServerLog.Log.WriteLog(this.GetType().Name, "Sent XML Policy to: " + temp.Address + " at port:" + temp.Port);
             }
             finally
             {
