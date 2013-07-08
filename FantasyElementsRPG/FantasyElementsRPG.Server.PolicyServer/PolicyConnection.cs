@@ -1,6 +1,8 @@
-﻿using System;
+﻿using FantasyElementsRPG.Server.PolicyServer.Logger;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,8 +30,10 @@ namespace FantasyElementsRPG.Server.PolicyServer
                 // receive the request from the client 
                 m_connection.BeginReceive(m_buffer, 0, s_policyRequestString.Length, SocketFlags.None, new AsyncCallback(OnReceive), null);
             }
-            catch (SocketException)
+            catch (SocketException e)
             {
+                PolicyServerLogger.PolicyServerLog.CreateErrorLog();
+                PolicyServerLogger.PolicyServerLog.WriteErrorLog(this.GetType().Name, e.Message);
                 m_connection.Close();
             }
         }
@@ -55,8 +59,10 @@ namespace FantasyElementsRPG.Server.PolicyServer
                 // send the policy 
                 m_connection.BeginSend(m_policy, 0, m_policy.Length, SocketFlags.None, new AsyncCallback(OnSend), null);
             }
-            catch (SocketException)
+            catch (SocketException e)
             {
+                PolicyServerLogger.PolicyServerLog.CreateErrorLog();
+                PolicyServerLogger.PolicyServerLog.WriteErrorLog(this.GetType().Name, e.Message);
                 m_connection.Close();
             }
         }
@@ -66,6 +72,8 @@ namespace FantasyElementsRPG.Server.PolicyServer
             try
             {
                 m_connection.EndSend(res);
+                IPEndPoint temp = m_connection.RemoteEndPoint as IPEndPoint;
+                PolicyServerLogger.PolicyServerLog.WriteLog(this.GetType().Name, "Sent XML Policy to: " + temp.Address + " at port:" + temp.Port);
             }
             finally
             {

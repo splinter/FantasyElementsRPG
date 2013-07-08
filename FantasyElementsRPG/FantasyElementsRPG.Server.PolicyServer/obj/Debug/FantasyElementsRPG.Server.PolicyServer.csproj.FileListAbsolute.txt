@@ -11,3 +11,5 @@ E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.PolicyServer\obj\Debug\FantasyElementsRPG.Server.PolicyServer.csproj.GenerateResource.Cache
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.PolicyServer\obj\Debug\FantasyElementsRPG.Server.PolicyServer.exe
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.PolicyServer\obj\Debug\FantasyElementsRPG.Server.PolicyServer.pdb
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.PolicyServer\bin\Debug\FantasyElementsRPG.Server.PolicyServer.Logger.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.PolicyServer\bin\Debug\FantasyElementsRPG.Server.PolicyServer.Logger.pdb

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FantasyElementsRPG.Server.PolicyServer.Logger;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,7 @@ namespace FantasyElementsRPG.Server.PolicyServer
         public MainWindow()
         {
             InitializeComponent();
-
+            PolicyServerLogger.PolicyServerLog.SetTextBox(txtUpdates);
             PolicyServer ps = new PolicyServer("PolicyFile.xml");
             System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
         }

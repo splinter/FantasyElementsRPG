@@ -98,6 +98,12 @@
   <ItemGroup>
     <Resource Include="PolicyFile.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FantasyElementsRPG.Server.PolicyServer.Logger\FantasyElementsRPG.Server.PolicyServer.Logger.csproj">
+      <Project>{e5c5f9ce-dc7a-42b4-8d81-9c3fb6249dc1}</Project>
+      <Name>FantasyElementsRPG.Server.PolicyServer.Logger</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
