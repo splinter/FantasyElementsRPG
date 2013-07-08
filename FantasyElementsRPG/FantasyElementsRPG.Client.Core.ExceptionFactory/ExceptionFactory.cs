@@ -15,6 +15,8 @@ namespace FantasyElementsRPG.Client.Core.ExceptionFactory
     {
         private static UserControl control;
 
+       
+
         public static void HandleException(Exception e)
         { 
             

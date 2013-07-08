@@ -171,3 +171,5 @@ E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\ru\System.ComponentModel.Composition.Initialization.resources.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\zh-Hans\System.ComponentModel.Composition.Initialization.resources.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\zh-Hant\System.ComponentModel.Composition.Initialization.resources.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\FantasyElementsRPG.Client.Core.ExceptionFactory.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\FantasyElementsRPG.Client.Core.ExceptionFactory.pdb

@@ -93,6 +93,12 @@
     <Resource Include="Images\1.png" />
     <Resource Include="Images\2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FantasyElementsRPG.Client.Core.ExceptionFactory\FantasyElementsRPG.Client.Core.ExceptionFactory.csproj">
+      <Project>{65ab7ba5-20f9-4384-811d-f92c8faa8c6f}</Project>
+      <Name>FantasyElementsRPG.Client.Core.ExceptionFactory</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
