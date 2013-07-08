@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Client.Shell", "FantasyElementsRPG.Client.Shell\FantasyElementsRPG.Client.Shell.csproj", "{8D1003F9-B9F2-4CB3-B8B0-7CE3D74F9E50}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C786B7F2-B7AE-439D-95E1-0F62AD5FACD4} = {C786B7F2-B7AE-439D-95E1-0F62AD5FACD4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Client.Shell.Game", "FantasyElementsRPG.Client.Shell.Game\FantasyElementsRPG.Client.Shell.Game.csproj", "{C786B7F2-B7AE-439D-95E1-0F62AD5FACD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Client.Core.Canvas", "FantasyElementsRPG.Client.Core.Canvas\FantasyElementsRPG.Client.Core.Canvas.csproj", "{22F0C636-72B8-4B04-9E00-4AE1E84CCF4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Server.PolicyServer", "FantasyElementsRPG.Server.PolicyServer\FantasyElementsRPG.Server.PolicyServer.csproj", "{CBCD23EB-916E-4D07-A501-B4086D59804F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Server.GameServer", "FantasyElementsRPG.Server.GameServer\FantasyElementsRPG.Server.GameServer.csproj", "{23A51926-B68C-4F85-80EC-DB78B8F0C033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyElementsRPG.Client.Core.GameLoop", "FantasyElementsRPG.Client.Core.GameLoop\FantasyElementsRPG.Client.Core.GameLoop.csproj", "{B7E58337-B35E-4F49-89BC-3B4945A2BE36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D1003F9-B9F2-4CB3-B8B0-7CE3D74F9E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1003F9-B9F2-4CB3-B8B0-7CE3D74F9E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1003F9-B9F2-4CB3-B8B0-7CE3D74F9E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1003F9-B9F2-4CB3-B8B0-7CE3D74F9E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C786B7F2-B7AE-439D-95E1-0F62AD5FACD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C786B7F2-B7AE-439D-95E1-0F62AD5FACD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C786B7F2-B7AE-439D-95E1-0F62AD5FACD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C786B7F2-B7AE-439D-95E1-0F62AD5FACD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F0C636-72B8-4B04-9E00-4AE1E84CCF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F0C636-72B8-4B04-9E00-4AE1E84CCF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F0C636-72B8-4B04-9E00-4AE1E84CCF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F0C636-72B8-4B04-9E00-4AE1E84CCF4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCD23EB-916E-4D07-A501-B4086D59804F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCD23EB-916E-4D07-A501-B4086D59804F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCD23EB-916E-4D07-A501-B4086D59804F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCD23EB-916E-4D07-A501-B4086D59804F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A51926-B68C-4F85-80EC-DB78B8F0C033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A51926-B68C-4F85-80EC-DB78B8F0C033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A51926-B68C-4F85-80EC-DB78B8F0C033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A51926-B68C-4F85-80EC-DB78B8F0C033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E58337-B35E-4F49-89BC-3B4945A2BE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E58337-B35E-4F49-89BC-3B4945A2BE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E58337-B35E-4F49-89BC-3B4945A2BE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E58337-B35E-4F49-89BC-3B4945A2BE36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2 @@
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Shell
+Generated_Code\FantasyElementsRPG.Client.Shell.Game.g.cs
