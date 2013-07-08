@@ -171,3 +171,5 @@ E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Shell\obj\Debug\FantasyElementsRPG.Client.Shell.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Shell\obj\Debug\FantasyElementsRPG.Client.Shell.pdb
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Shell\obj\Debug\XapCacheFile.xml
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Shell\Bin\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Shell\Bin\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.pdb

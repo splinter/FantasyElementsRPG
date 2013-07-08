@@ -123,6 +123,10 @@
       <Project>{22f0c636-72b8-4b04-9e00-4ae1e84ccf4d}</Project>
       <Name>FantasyElementsRPG.Client.Core.Canvas</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.csproj">
+      <Project>{f072227c-2f1b-4715-ad7f-555ab9335dbd}</Project>
+      <Name>FantasyElementsRPG.Client.Core.FatalExceptionUserControl</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

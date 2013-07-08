@@ -34,6 +34,7 @@ namespace FantasyElementsRPG.Client.Shell
 
             ModuleCatalog moduleCatalog = (ModuleCatalog)this.ModuleCatalog;
             moduleCatalog.AddModule(typeof(Core.Canvas.CanvasModule));
+            moduleCatalog.AddModule(typeof(Core.FatalExceptionUserControl.FatalExceptionUserControlModule));
         }
     }
 }

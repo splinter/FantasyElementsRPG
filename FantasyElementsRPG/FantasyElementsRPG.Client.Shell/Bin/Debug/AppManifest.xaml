@@ -2,6 +2,7 @@
   <Deployment.Parts>
     <AssemblyPart x:Name="FantasyElementsRPG.Client.Shell" Source="FantasyElementsRPG.Client.Shell.dll" />
     <AssemblyPart x:Name="FantasyElementsRPG.Client.Core.Canvas" Source="FantasyElementsRPG.Client.Core.Canvas.dll" />
+    <AssemblyPart x:Name="FantasyElementsRPG.Client.Core.FatalExceptionUserControl" Source="FantasyElementsRPG.Client.Core.FatalExceptionUserControl.dll" />
     <AssemblyPart x:Name="Microsoft.Practices.Prism" Source="Microsoft.Practices.Prism.dll" />
     <AssemblyPart x:Name="Microsoft.Practices.Prism.Interactivity" Source="Microsoft.Practices.Prism.Interactivity.dll" />
     <AssemblyPart x:Name="Microsoft.Practices.Prism.MefExtensions" Source="Microsoft.Practices.Prism.MefExtensions.dll" />

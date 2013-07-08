@@ -96,7 +96,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="PolicyFile.xml" />
+    <Resource Include="PolicyFile.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FantasyElementsRPG.Server.PolicyServer.Logger\FantasyElementsRPG.Server.PolicyServer.Logger.csproj">
