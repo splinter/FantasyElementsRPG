@@ -27,7 +27,7 @@ http://www.pearltrees.com/#/N-u=1_955680&N-p=82971963&N-s=1_8527222&N-f=1_852722
 
 Socket Connections for realtime connecting
 
-Server side - net library - switched away from web sockets
+Server side - System.Net.Sockets
 
 Client side - System.Net.Sockets - silverlight can only connect to servers between ports 4502 to 4534
 
