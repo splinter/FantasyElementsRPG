@@ -1,6 +1,3 @@
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\obj\Debug\FantasyElementsRPG.Client.Core.Canvas.csprojResolveAssemblyReference.cache
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\obj\Debug\Views\CanvasControl.g.cs
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\obj\Debug\FantasyElementsRPG.Client.Core.Canvas.g.resources
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\Bin\Debug\FantasyElementsRPG.Client.Core.Canvas.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\Bin\Debug\FantasyElementsRPG.Client.Core.Canvas.pdb
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\Bin\Debug\FantasyElementsRPG.Client.Core.GameLoop.dll
@@ -87,5 +84,8 @@ E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\Bin\Debug\ru\System.ComponentModel.Composition.Initialization.resources.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\Bin\Debug\zh-Hans\System.ComponentModel.Composition.Initialization.resources.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\Bin\Debug\zh-Hant\System.ComponentModel.Composition.Initialization.resources.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\obj\Debug\FantasyElementsRPG.Client.Core.Canvas.csprojResolveAssemblyReference.cache
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\obj\Debug\Views\CanvasControl.g.cs
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\obj\Debug\FantasyElementsRPG.Client.Core.Canvas.g.resources
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\obj\Debug\FantasyElementsRPG.Client.Core.Canvas.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\obj\Debug\FantasyElementsRPG.Client.Core.Canvas.pdb

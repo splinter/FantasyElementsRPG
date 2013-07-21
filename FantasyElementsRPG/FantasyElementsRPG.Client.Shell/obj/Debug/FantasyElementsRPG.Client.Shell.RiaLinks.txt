@@ -1,2 +1,2 @@
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.Canvas\FantasyElementsRPG.Client.Core.Canvas.csproj,635088745606562808,
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.csproj,635089093174563518,
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.csproj,635089120126910488,

@@ -1,0 +1,5 @@
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.GameServer.Globals\bin\Debug\FantasyElementsRPG.Server.GameServer.Globals.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.GameServer.Globals\bin\Debug\FantasyElementsRPG.Server.GameServer.Globals.pdb
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.GameServer.Globals\obj\Debug\FantasyElementsRPG.Server.GameServer.Globals.csprojResolveAssemblyReference.cache
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.GameServer.Globals\obj\Debug\FantasyElementsRPG.Server.GameServer.Globals.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.GameServer.Globals\obj\Debug\FantasyElementsRPG.Server.GameServer.Globals.pdb

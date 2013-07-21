@@ -1,5 +1,4 @@
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.GameServer.ExceptionFactory\bin\Debug\FantasyElementsRPG.Server.GameServer.ExceptionFactory.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.GameServer.ExceptionFactory\bin\Debug\FantasyElementsRPG.Server.GameServer.ExceptionFactory.pdb
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.GameServer.ExceptionFactory\obj\Debug\FantasyElementsRPG.Server.GameServer.ExceptionFactory.csprojResolveAssemblyReference.cache
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.GameServer.ExceptionFactory\obj\Debug\FantasyElementsRPG.Server.GameServer.ExceptionFactory.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Server.GameServer.ExceptionFactory\obj\Debug\FantasyElementsRPG.Server.GameServer.ExceptionFactory.pdb

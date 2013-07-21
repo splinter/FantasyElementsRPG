@@ -1,10 +1,6 @@
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.pdb
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\obj\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.csprojResolveAssemblyReference.cache
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\obj\Debug\Views\FatalExceptionControl.g.cs
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\obj\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.g.resources
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\obj\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.dll
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\obj\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.pdb
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\FantasyElementsRPG.Client.Core.ExceptionFactory.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\Microsoft.Practices.Prism.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\Microsoft.Practices.Prism.MefExtensions.dll
@@ -17,6 +13,7 @@ E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\System.Windows.Interactivity.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\System.ComponentModel.Composition.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\System.ComponentModel.Composition.Initialization.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\FantasyElementsRPG.Client.Core.ExceptionFactory.pdb
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\Microsoft.Practices.Prism.pdb
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\Microsoft.Practices.Prism.xml
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
@@ -171,5 +168,8 @@ E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\ru\System.ComponentModel.Composition.Initialization.resources.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\zh-Hans\System.ComponentModel.Composition.Initialization.resources.dll
 E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\zh-Hant\System.ComponentModel.Composition.Initialization.resources.dll
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\FantasyElementsRPG.Client.Core.ExceptionFactory.dll
-E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\Bin\Debug\FantasyElementsRPG.Client.Core.ExceptionFactory.pdb
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\obj\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.csprojResolveAssemblyReference.cache
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\obj\Debug\Views\FatalExceptionControl.g.cs
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\obj\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.g.resources
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\obj\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.dll
+E:\my game\Game\FantasyElementsRPG\FantasyElementsRPG\FantasyElementsRPG.Client.Core.FatalExceptionUserControl\obj\Debug\FantasyElementsRPG.Client.Core.FatalExceptionUserControl.pdb

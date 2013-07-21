@@ -31,3 +31,6 @@ Server side - System.Net.Sockets
 
 Client side - System.Net.Sockets - silverlight can only connect to servers between ports 4502 to 4534
 
+==================================================================
+
+a very good tutorial on CAL with step by step tutorial: http://msdn.microsoft.com/en-us/library/ff921123.aspx

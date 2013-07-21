@@ -13,5 +13,12 @@ namespace FantasyElementsRPG.Server.GameServer.Shell
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+
+            FantasyElementsRPG_Bootstrapper bootstrapper = new FantasyElementsRPG_Bootstrapper();
+            bootstrapper.Run();
+        }
     }
 }
